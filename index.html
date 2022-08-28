@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>My restaurant</title>
+    <title>Games Toon</title>
     <meta charset="UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +21,7 @@
         }
 
         .bgimg {
-            background-image: url('assets/onepage_restaurant.jpg');
+            background-image: url('assets/background.png');
             min-height: 100%;
             background-position: center;
             background-size: cover;
@@ -32,18 +32,14 @@
 <body>
 
     <div class="bgimg w3-display-container w3-text-white">
-        <div class="w3-display-middle w3-jumbo">
-            <p>logo</p>
-        </div>
+      
         <div class="w3-display-topleft w3-container w3-xlarge">
             <p><button onclick="document.getElementById('menu').style.display='block'"
-                    class="w3-button w3-black">menu</button></p>
+                    class="w3-button w3-black">Buy a game</button></p>
             <p><button onclick="document.getElementById('contact').style.display='block'"
-                    class="w3-button w3-black">contact</button></p>
+                    class="w3-button w3-black">Pre-order</button></p>
         </div>
         <div class="w3-display-bottomleft w3-container">
-            <p class="w3-xlarge">monday - friday 10-23 | saturday 14-02</p>
-            <p class="w3-large">42 village St, New York</p>
             <p>powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
         </div>
     </div>
@@ -54,31 +50,31 @@
             <div class="w3-container w3-black w3-display-container">
                 <span onclick="document.getElementById('menu').style.display='none'"
                     class="w3-button w3-display-topright w3-large">x</span>
-                <h1>Starters</h1>
+                <h1>Action</h1>
             </div>
             <div class="w3-container">
-                <h5>Tomato Soup <b>$2.50</b></h5>
-                <h5>Chicken Salad <b>$3.50</b></h5>
-                <h5>Bread and Butter <b>$1.00</b></h5>
+                <h5> Red Dead Redemption II <b>SR 229</b></h5>
+                <h5>MONSTER HUNTER RISE <b>SR 249</b></h5>
+                <h5>Hitman 3 <b>SR 99.60</b></h5>
             </div>
             <div class="w3-container w3-black">
-                <h1>Main Courses</h1>
+                <h1>Horror</h1>
             </div>
             <div class="w3-container">
-                <h5>Grilled Fish and Potatoes <b>$8.50</b></h5>
-                <h5>Italian Pizza <b>$5.50</b></h5>
-                <h5>Veggie Pasta <b>$4.00</b></h5>
-                <h5>Chicken and Potatoes <b>$6.50</b></h5>
-                <h5>Deluxe Burger <b>$5.00</b></h5>
+                <h5>Little Nightmares II  <b>SR 105 </b></h5>
+                <h5>Resident Evil 1, 2, and 7 <b>SR 303 </b></h5>
+                <h5>Fatal Frame 2: Crimson Butterfly <b>SR 67 </b></h5>
+                <h5>Dead by Daylight <b>SR 148</b></h5>
+                <h5>Silent Hill series <b>SR 198 </b></h5>
             </div>
             <div class="w3-container w3-black">
-                <h1>Desserts</h1>
+                <h1>Puzzlers games</h1>
             </div>
             <div class="w3-container">
-                <h5>Fruit Salad <b>$2.50</b></h5>
-                <h5>Ice cream <b>$2.00</b></h5>
-                <h5>Chocolate Cake <b>$4.00</b></h5>
-                <h5>Cheese <b>$5.50</b></h5>
+                <h5>World of Goo <b>SR24.50</b></h5>
+                <h5>Stray <b>SR107</b></h5>
+                <h5>Portal Reloaded <b>SR 20.21</b></h5>
+                <h5>Poly Bridge 2 <b> SR 90.3</b></h5>
             </div>
         </div>
     </div>
@@ -88,21 +84,21 @@
         <div class="w3-modal-content w3-animate-zoom">
             <div class="w3-container w3-black">
                 <span onclick="document.getElementById('contact').style.display='none'"
-                    class="w3-button w3-display-topright w3-large">x</span>
-                <h1>Contact</h1>
+                    class="w3-button w3-display-topright w3-large ">x</span>
+                <h1>Pre-order a game</h1>
             </div>
             <div class="w3-container">
-                <p>Reserve a table, ask for today's special or just send us a message:</p>
+                <p>Pre-order a game to get it as fast as we can</p>
                 <form action="/action_page.php" target="_blank">
-                    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required
+                    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name of the game" required
                             name="Name"></p>
-                    <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people"
+                    <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many Copies do you want to pre-order"
                             required name="People"></p>
                     <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time"
                             required name="date" value="2020-11-16T20:00"></p>
                     <p><input class="w3-input w3-padding-16 w3-border" type="text"
                             placeholder="Message \ Special requirements" required name="Message"></p>
-                    <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
+                    <p><button class="w3-button" type="submit">PRE-ORDER</button></p>
                 </form>
             </div>
         </div>
