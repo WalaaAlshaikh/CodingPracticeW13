@@ -48,6 +48,8 @@ progress {
     vertical-align: baseline
 }
 
+
+
 audio:not([controls]) {
     display: none;
     height: 0
@@ -361,18 +363,27 @@ a {
 .w3-btn,
 .w3-button {
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
     display: inline-block;
     padding: 8px 16px;
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
-    color: inherit;
-    background-color: inherit;
+   
     margin-top: 100px;
     text-align: center;
     cursor: pointer;
     white-space: nowrap
+}
+
+.border-this{
+    border-radius:30px !important;
+    padding-left:70px;
+    padding-right: 70px;
+    border: solid 2px rgb(108, 55, 142);
+    color: white !important;
+    background-color:transparent !important;
+    text-align: center;
 }
 
 .w3-btn:hover {
@@ -982,7 +993,7 @@ a {
 
 .w3-display-topleft {
     position: absolute;
-    right: 200px;
+    right: 160px;
    
 }
 
@@ -991,6 +1002,8 @@ a {
     right: 0;
     top: -90px
 }
+
+
 
 .w3-display-bottomleft {
     position: absolute;
@@ -1649,8 +1662,8 @@ a {
 
 .w3-black,
 .w3-hover-black:hover {
-    padding-left:40px;
-    padding-right: 40px;
+    padding-left:60px;
+    padding-right: 60px;
     color: #fff !important;
     background-color: rgb(108, 55, 142) !important
 }
